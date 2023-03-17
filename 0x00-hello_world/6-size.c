@@ -15,11 +15,11 @@ int main(void)
 	long long ll;
 	float f;
 
-	printf("\n Size of a char: %.2c", sizeof(c)"\n");
-	printf("\n Size of an int: %.2d", sizeof(i)"\n");
-	printf("\n Size of a long int: %.2zu", sizeof(li)"\n");
-	printf("\n Size of a long long int: %.2zu", sizeof(ll)"\n");
-	printf("\n Size of a float: %.2f", sizeof(f)"\n");
+	printf("\n Size of a char: %.2zu", sizeof(c));
+	printf("\n Size of an int: %.2zu", sizeof(i));
+	printf("\n Size of a long int: %.2zu", sizeof(li));
+	printf("\n Size of a long long int: %.2zu", sizeof(ll));
+	printf("\n Size of a float: %.2zu", sizeof(f));
 
 	return (0);
 }
