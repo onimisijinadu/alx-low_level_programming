@@ -2,8 +2,7 @@
 
 /**
  * main = Entry point
- *
- * -std=c99
+ * -Wall gcc
  *
  *  Return: Always 0 (Sucess)
  */
