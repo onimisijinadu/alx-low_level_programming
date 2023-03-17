@@ -3,7 +3,7 @@
 /**
  * main = Entry point
  *
- * -std= [Anything]
+ * -std=c99
  *
  *  Return: Always 0 (Sucess)
  */
