@@ -3,12 +3,13 @@
 /**
  * main - Entry point
  * 
- * Retun: Always 0 (Sucess)
+ * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
 	printf("\"with proper grammar, but the outcome is a piece of art,");
+	-std=c99;
 	return (0);
 }
 
