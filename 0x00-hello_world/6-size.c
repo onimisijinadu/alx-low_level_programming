@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 
 /**
  * main - Entry point
@@ -15,11 +14,11 @@ int main(void)
 	long long d;
 	float e;
 
-	printf("\n Size of a char: %zu byte(s)", (unsigned long)sizeof(a));
-	printf("\n Size of an int: %zu byte(s)", (unsigned long)sizeof(b));
-	printf("\n Size of a long int: %zu byte(s)", (unsigned long)sizeof(c));
-	printf("\n Size of a long long int: %zu byte(s)", (unsigned long)sizeof(d));
-	printf("\n Size of a float: %zu byte(s)", (unsigned long)sizeof(e));
+	printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %zu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(e));
 
 	return (0);
 }
