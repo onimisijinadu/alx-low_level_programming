@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * 
- * -std=gnu89
+ * main = Entry point
  *
- * Return: Always 0 (Sucess)
+ * -std= [Anything]
+ *
+ *  Return: Always 0 (Sucess)
  */
 
 int main(void)
