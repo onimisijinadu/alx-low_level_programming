@@ -17,5 +17,11 @@ int main(void)
 		 ++c)
 			putchar(c);
 
+	for
+		(c = 'A';
+		 C = 'Z';
+		 ++c)
+			putchar(c);
+
 	return (0);
 }
