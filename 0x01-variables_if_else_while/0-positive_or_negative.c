@@ -4,13 +4,13 @@
 
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-
 /**
  * main - Entry point
  *
- * Return = o
+ * Return: Always 0 (sucess)
  */
+
+/* betty style doc for function main goes there */
 
 int main(void)
 {
