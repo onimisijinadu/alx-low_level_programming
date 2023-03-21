@@ -17,6 +17,7 @@ int main(void)
 		c <= 'z';
 		c++)
 			putchar(c);
+	putchar('\n');
 
 	return (0);
 }

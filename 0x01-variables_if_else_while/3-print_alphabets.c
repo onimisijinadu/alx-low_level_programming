@@ -22,6 +22,7 @@ int main(void)
 		 c <= 'Z';
 		 ++c)
 			putchar(c);
+	putchar('\n');
 
 	return (0);
 }
