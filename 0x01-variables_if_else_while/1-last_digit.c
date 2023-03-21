@@ -15,6 +15,10 @@
 int main(void)
 {
 	int d, n;
+
+	prinf("Enter the digit: ");
+	scanf("%d", &d);
+
 	n = d % 10;
 
 	srand(time(0));
