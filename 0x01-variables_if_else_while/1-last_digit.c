@@ -14,7 +14,7 @@
 
 int main(void)
 {
-	int d n;
+	int d, n;
 	n = d % 10
 
 	srand(time(0));
