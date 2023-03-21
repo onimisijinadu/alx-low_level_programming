@@ -16,7 +16,7 @@ int main(void)
 {
 	int d, n;
 
-	prinf("Enter the digit: ");
+	printf("Enter the digit: ");
 	scanf("%d", &d);
 
 	n = d % 10;
