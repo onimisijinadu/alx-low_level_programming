@@ -16,7 +16,6 @@ int main(void)
 {
 	int d, n;
 
-	printf("Enter the digit: ");
 	scanf("%d", &d);
 
 	n = d % 10;
@@ -27,7 +26,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5", d, n);
 	}
-	else if (n ==0)
+	else if (n == 0)
 	{
 		printf("Last digit of %d is %d and is zero", d, n);
 	}
