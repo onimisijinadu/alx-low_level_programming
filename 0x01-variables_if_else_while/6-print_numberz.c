@@ -13,7 +13,7 @@ int main(void)
 	for
 		(base = 0;
 		base <= 9;
-		base++)
+		++base)
 			putchar(base);
 	putchar('\n');
 
