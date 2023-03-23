@@ -9,7 +9,7 @@
 void print_alphabet_x10(void)
 {
 	char c;
-	if (c <=10)
+	if (c <= 10)
 		_putchar(c);
 	c++;
 	for
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 		 c <= 'z';
 		 c++)
 			_putchar(c);
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
 
