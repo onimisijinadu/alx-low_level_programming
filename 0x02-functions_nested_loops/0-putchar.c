@@ -1,13 +1,18 @@
-#include <main.h>
+#include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0
  */
 
+int print(void)
+{
+	printf("putchar");
+}
 int main(void)
 {
-	printf("_putchar");
+	print;
 
 	return (0);
 }
