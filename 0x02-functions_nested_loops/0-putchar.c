@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <main.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -6,14 +7,7 @@
  * Return: Always 0
  */
 
-int print(void)
+int _putchar(char c)
 {
-	printf("putchar");
+	putchar("_putchar");
 }
-int main(void)
-{
-	print;
-
-	return (0);
-}
-
