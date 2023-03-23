@@ -15,7 +15,7 @@ int main(void)
 		 i <= '9';
 		 ++i)
 			
-			putchar(i,",");
+			putchar(i,);
 
 	putchar('\n');
 
