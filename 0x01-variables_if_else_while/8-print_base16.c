@@ -12,8 +12,8 @@ int main(void)
 	char a;
 
 	for
-		(i = 0;
-		 i <= 9;
+		(i = '0';
+		 i <= '9';
 		 ++i)
 			putchar(i);
 	for
