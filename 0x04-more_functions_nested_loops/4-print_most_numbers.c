@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - functiion for printing number
- * @i: input number
+ * i: input number
  * Return: Always 0
  */
 

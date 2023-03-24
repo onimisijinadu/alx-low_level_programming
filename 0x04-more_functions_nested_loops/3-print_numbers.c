@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - function for printing numbers
- * @c: numbers input
+ * c: input
  * Return: always 0
  */
 
