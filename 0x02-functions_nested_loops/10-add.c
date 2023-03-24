@@ -3,9 +3,9 @@
 /**
  * add - functions for adding numbers
  *
- * num1: first input
+ * @num1: first input
  *
- * num2: second input
+ * @num2: second input
  *
  * Return: Result
  */
