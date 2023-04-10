@@ -8,9 +8,15 @@
  */
 char *_strchr(char *s, char c)
 {
-	unsigned int i;
+	while (*s)
+	{
+		if (*s != c)
+			s++;
+		else
+			return(s);
+	}
+	if (c == '\0')
+		return(s);
 
-	for (i >= 'a'; i <= 'z'; i++)
-		_putchar(i);
 	return (NULL);
 }
